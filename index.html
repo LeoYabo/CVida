@@ -7,7 +7,8 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="animate.css" />
+
   <!-- this loads the bootstrap css library-->
   <title>CVida</title>
 
@@ -15,25 +16,26 @@
 
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+  <link rel="icon" href="images/favicon.ico">
 </head>
 
 
 <body>
 
+
   <section id="title">
     <div class="container-fluid title-section">
-      <!-- containers contain a piece of code to style in the way one likes (see css), in this case the bootstrap container-fluid class make it so the container can change according to the screeen size of the browser-->
-      <picture>
-        <img class="logo" src="images/Logo.png" alt="logo">
-      </picture>
-      <h1 class="first-sentence">Welcome To Your Future</h1>
+      <div class="tile-div fadeInDown animated">
+        <picture>
+          <img class="logo" src="images/logo.png" alt="logo">
+        </picture>
+        <h1 class="first-sentence">Welcome To Your Future</h1>
+        <i class="down-icon fas fa-chevron-down fa-7x animated bounce"></i>
+      </div><!-- containers contain a piece of code to style in the way one likes (see css), in this case the bootstrap container-fluid class make it so the container can change according to the screeen size of the browser-->
     </div>
     </<section>
 
@@ -66,25 +68,29 @@
 
     <section>
       <div class="features">
-        <div class="features-section">
-          <div class="row">
+        <div class="features-section ">
+          <div class="row scroll-animations">
 
-            <div class="feat questionaies col-lg-3"> <i class="fas fa-clipboard-list fa-4x"></i>
+            <div class="feat questionaies col-lg-3 animated">
+              <i class="fas fa-clipboard-list fa-4x"></i>
               <h3>Proprietary questionnaires</h3>
               <p>Our questionnaires are tailor-suited for each individual.</p>
             </div>
 
-            <div class="feat updates col-lg-3"> <i class="fas fa-download fa-4x"></i>
+            <div class="feat updates col-lg-3 animated">
+              <i class="fas fa-download fa-4x"></i>
               <h3>Hands-Free Updates</h3>
               <p>Using our state-of-the-art AI, our app constantly improves itself through inputs provided by our users.</p>
             </div>
 
-            <div class="feat get-connected col-lg-3"> <i class="fas fa-people-arrows fa-4x"></i>
+            <div class="feat get-connected col-lg-3 animated">
+              <i class="fas fa-people-arrows fa-4x"></i>
               <h3>Get Connected!</h3>
               <p>Our users can meet others who were at the same pointin life as them or talk to others who already did it!</p>
             </div>
 
-            <div class="feat mailbox col-lg-3"><i class="fas fa-envelope-open-text fa-4x"></i>
+            <div class="feat mailbox col-lg-3 animated">
+              <i class="fas fa-envelope-open-text fa-4x"></i>
               <h3>Personal mailbox</h3>
               <p>With commercials and recommendations, just for you! </p>
             </div>
@@ -94,17 +100,15 @@
       </div>
     </section>
 
-
-
-
-  <section id="cta">
-  <div class="call-to-action">
-    <div class="cta-div">
-      <h3 class ="motto">Let Your CV Change Your Vida</h3>
-      <button type="button" class="btn  btn-dark  btn-lg  download-button"> <i class="fab fa-apple"></i> Download </button>
-      <button type="button" class="btn  btn-dark  btn-lg  download-button"> <i class="fab fa-google-play"></i> Download </button>
+    <section id="cta">
+    <div class="call-to-action">
+      <div class="cta-div">
+        <h3 class ="motto">Let Your CV Change Your Vida</h3>
+        <button type="button" class="btn  btn-dark  btn-lg  download-button"> <i class="fab fa-apple"></i> Download </button>
+        <button type="button" class="btn  btn-dark  btn-lg  download-button"> <i class="fab fa-google-play"></i> Download </button>
+      </div>
     </div>
-  </div>
+
 
   </section>
 
@@ -116,6 +120,7 @@
       <p>© Copyright 2020 CVida</p>
     </footer>
 
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
