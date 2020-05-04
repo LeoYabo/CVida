@@ -1,0 +1,113 @@
+body {
+  text-align: center;
+}
+
+
+
+.title-section{
+  padding: 3% 15% 7%; /* this creates a padding (space from the sides of the screen) of 3% above and below and 15% for each side*/
+  background-image: url("images/crossroads.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-bottom: 500px
+}
+
+
+.first-sentence {
+  text-align: center;
+  padding-top: 160px;
+  color: white;
+  font-size: 7rem;
+font-family: "Indie Flower", cursive;
+}
+
+.nav-logo {
+  width: 25%;
+}
+
+/*---------------------------about section------------------*/
+
+.about-section {
+text-align: center;
+padding-top: 170px;
+padding-bottom: 170px;
+background-color: #0a8f90;
+}
+
+.first-point, .second-point, .third-point {
+margin-left: auto;
+margin-right: auto;
+font-family: "Raleway";
+font-weight: 800;
+color: black;
+}
+
+.first-point{
+  padding-bottom: 40px;
+}
+
+.second-point {
+    padding-bottom: 40px;
+}
+
+/*-------------------features section----------*/
+
+.features-section {
+  padding: 200px 200px 200px;
+  background-color: #0a8f90;
+  color: black;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.feat {
+  padding:0 50px;
+}
+
+.fas {
+  padding-bottom: 20px;
+}
+
+/*--------------------------call to action -------------------*/
+
+.call-to-action {
+  background-image: url("images/iphone.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 500px 0 500px 0;
+}
+
+.cta-div {
+  position: relative;
+  top: 350px;
+  color: white;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+.motto {
+  font-size: 3.5rem;
+
+}
+
+.download-button {
+    margin: 20px 20px 0 20px;
+}
+
+
+
+/*-----------------footer-----------------------------*/
+
+.end{
+  background-color: #0a8f90;
+  font-family: "Raleway";
+  font-weight: 700;
+  padding: 50px 0 50px 0;
+}
+
+.footer-icon {
+  margin: 0 20px 10px;
+
+}
