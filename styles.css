@@ -2,6 +2,11 @@ body {
   text-align: center;
 }
 
+.down-icon {
+  color: white;
+  position: relative;
+  top: 350px;
+}
 
 
 .title-section{
@@ -17,7 +22,7 @@ body {
 .first-sentence {
   text-align: center;
   padding-top: 160px;
-  color: white;
+color: white;
   font-size: 7rem;
 font-family: "Indie Flower", cursive;
 }
